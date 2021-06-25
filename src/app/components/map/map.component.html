@@ -1,0 +1,24 @@
+ <mat-toolbar color="primary" class="navbar">
+
+     <span color="primary" (click)="opened=!opened">
+          <mat-icon>reply</mat-icon>
+     </span>
+     &nbsp; &nbsp;
+     <a routerLin="/">
+     <span>Home</span>
+     </a>
+     <span class="fill-remaining-space"></span>
+
+     <div class="images">
+      <img src="../../../assets/images/facebook.svg">
+      <img src="../../../assets/images/twitter.svg">
+      <img src="../../../assets/images/youtube.svg">
+      <img class="profile" src="../../../assets/images/profile.svg">
+     </div>
+
+</mat-toolbar>
+
+<div class="map" leaflet [leafletOptions]="options">
+</div>
+
+

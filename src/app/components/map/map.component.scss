@@ -1,0 +1,134 @@
+
+.navbar{
+  position: absolute;
+  background: #08206c !important;
+  top: 0;
+  z-index: 1000;
+  mat-icon{
+    cursor: pointer;
+  }
+  .images{
+    display: flex;
+    width: 15%;
+    height: 50%;
+    margin-left: 78%;
+    img{
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 50px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    .profile{
+      margin-left: 25%;
+    }
+  }
+}
+
+
+ a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+  }
+
+
+.map {
+  height: 91%;
+  top: 9%;
+  padding: 0;
+  position: relative;
+}
+
+@media only screen and(min-width:1000px) and (max-width:1260px) {
+
+  .navbar{
+    .images{
+
+      margin-left: 73%;
+
+    }
+  }
+
+}
+
+@media only screen and(min-width:810px) and (max-width:1000px) {
+
+  .navbar{
+    .images{
+
+      margin-left: 68%;
+
+    }
+  }
+
+}
+
+@media only screen and(min-width:715px) and (max-width:810px) {
+
+  .navbar{
+    .images{
+
+      margin-left: 63%;
+
+    }
+  }
+
+}
+
+@media only screen and(min-width:540px) and (max-width:715px) {
+
+  .navbar{
+    .images{
+
+      margin-left: 55%;
+
+    }
+  }
+
+}
+
+@media only screen and(min-width:400px) and (max-width:540px) {
+
+  .navbar{
+    .images{
+
+      margin-left: 40%;
+
+    }
+  }
+
+}
+
+@media only screen and(min-width:305px) and (max-width:400px) {
+
+  .navbar{
+    .images{
+
+      margin-left: 20%;
+
+    }
+  }
+
+}
+
+@media only screen and(min-width:150px) and (max-width:305px) {
+
+  .navbar{
+    mat-icon{
+    display: none;
+  }
+    .images{
+
+      margin-left: 5%;
+
+    }
+
+    a{
+      font-size: 16px;
+      margin-left: 0;
+    }
+  }
+
+}
+
